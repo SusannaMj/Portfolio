@@ -31,3 +31,7 @@ nav img {
   display: flex;
   max-height: 90px;
 }
+
+.headshot {
+  max-width: 3000px;
+}
