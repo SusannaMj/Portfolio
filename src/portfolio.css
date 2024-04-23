@@ -1,3 +1,33 @@
-h1 {
-  color: aqua;
+nav {
+  background-color: #111111;
+  padding: 10px 30px 10px 30px;
+  opacity: 90%;
+
+  width: 100%;
+}
+
+nav .container {
+  display: flex;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+
+  color: #ffffff;
+  margin-left: auto;
+  gap: 100px;
+  font-size: 25px;
+}
+nav a {
+  text-decoration: none;
+  color: #ffffff;
+}
+nav a:hover {
+  opacity: 80%;
+  transition: all 0.3s ease-in-out;
+}
+nav img {
+  display: flex;
+  max-height: 90px;
 }
