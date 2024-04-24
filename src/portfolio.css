@@ -1,3 +1,18 @@
+body {
+  background-color: aqua;
+}
+
+h1 {
+  line-height: 1.5;
+  font-size: 40px;
+  color: #ffffff;
+}
+
+h2 {
+  font-size: 35px;
+  text-align: center;
+}
+
 nav {
   background-color: #111111;
   padding: 10px 30px 10px 30px;
@@ -33,5 +48,14 @@ nav img {
 }
 
 .headshot {
-  max-width: 3000px;
+  padding: 30px;
+  max-width: 250px;
+  margin-left: 100px;
+  box-shadow: -50px -50px 0 -40px white, 50px 50px 0 -40px white;
+}
+
+.main-card {
+  padding: 150px;
+  display: flex;
+  justify-content: center;
 }
