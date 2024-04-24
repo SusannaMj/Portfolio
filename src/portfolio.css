@@ -59,3 +59,22 @@ nav img {
   display: flex;
   justify-content: center;
 }
+
+footer .contact-links {
+  display: flex;
+  justify-content: center;
+}
+
+footer .contact-links a {
+  font-size: 40px;
+  padding: 10px 15px;
+  margin: 50px;
+
+  background-color: white;
+  border-radius: 50%;
+}
+
+footer .contact-links a:hover {
+  opacity: 85%;
+  transition: all 0.3s ease-in-out;
+}
