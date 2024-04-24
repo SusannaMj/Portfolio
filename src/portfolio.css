@@ -60,6 +60,12 @@ nav img {
   justify-content: center;
 }
 
+.about-me {
+  font-size: 30px;
+  line-height: 1.5;
+  color: #ffffff;
+}
+
 footer .contact-links {
   display: flex;
   justify-content: center;
