@@ -1,18 +1,16 @@
-var headline = document.getElementById("headline");
+// https://www.typeitjs.com/
 
-var typewriter = new Typewriter(headline, {
+new TypeIt("#headline", {
+  strings: [
+    "Hi",
+    "I am Susanna",
+    "German ",
+    "Front-end developer",
+    "Based in Australia",
+  ],
+  speed: 100,
+  nextStringDelay: 100,
   loop: false,
-  delay: 75,
-});
-
-typewriter
-  .pauseFor(10)
-  .typeString("Hi")
-
-  .pauseFor(300)
-
-  .typeString("I am Susanna")
-  .typeString("<strong>German </span> Front-end developer")
-  .typeString("Based in Australia")
-  .pauseFor(1000)
-  .start();
+  waitUntilVisible: true,
+  cursor: false,
+}).go();
