@@ -1,5 +1,5 @@
 body {
-  background-color: aqua;
+  background: aquamarine;
 }
 
 h1 {
@@ -19,6 +19,8 @@ nav {
   opacity: 90%;
 
   width: 100%;
+  position: fixed;
+  top: 0;
 }
 
 nav .container {
@@ -48,8 +50,9 @@ nav img {
 }
 
 .wave {
+  
   width: 100%;
-  position: relative;
+  top: 100px;
 }
 
 .headshot {
@@ -60,7 +63,7 @@ nav img {
 }
 
 .main-card {
-  position: relative;
+  position:static
   top: -100px;
   display: flex;
   justify-content: center;
