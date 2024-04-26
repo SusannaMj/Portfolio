@@ -50,7 +50,6 @@ nav img {
 }
 
 .wave {
-  
   width: 100%;
   top: 100px;
 }
@@ -63,7 +62,7 @@ nav img {
 }
 
 .main-card {
-  position:static
+  position: static;
   top: -100px;
   display: flex;
   justify-content: center;
@@ -73,6 +72,20 @@ nav img {
   font-size: 30px;
   line-height: 1.5;
   color: #ffffff;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.project-description {
+  margin: 50px;
+}
+
+.project-image {
+  max-width: 800px;
+  margin: 50px;
 }
 
 footer .contact-links {
