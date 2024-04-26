@@ -1,5 +1,5 @@
 body {
-  background: aquamarine;
+  background: linear-gradient(57deg, rgb(6, 3, 6) 0%, rgb(17, 10, 37) 100%);
 }
 
 h1 {
@@ -9,18 +9,28 @@ h1 {
 }
 
 h2 {
-  font-size: 35px;
+  margin-top: 200px;
+  margin-bottom: 100px;
+  font-size: 50px;
   text-align: center;
+  color: #ffffff;
+}
+
+h3 {
+  color: #ffffff;
+  font-size: 90px;
+  font-weight: 300;
 }
 
 nav {
   background-color: #111111;
   padding: 10px 30px 10px 30px;
-  opacity: 90%;
+  opacity: 95%;
 
   width: 100%;
   position: fixed;
   top: 0;
+  border-bottom: 3px solid rgb(232, 64, 247);
 }
 
 nav .container {
@@ -56,9 +66,10 @@ nav img {
 
 .headshot {
   padding: 30px;
-  max-width: 250px;
+  max-width: 300px;
   margin-left: 100px;
-  box-shadow: -50px -50px 0 -40px white, 50px 50px 0 -40px white;
+  box-shadow: 5px -5px 0 -2px white;
+  border-radius: 180px;
 }
 
 .main-card {
@@ -66,26 +77,38 @@ nav img {
   top: -100px;
   display: flex;
   justify-content: center;
+  border-left: 3px solid rgb(232, 64, 247);
 }
 
 .about-me {
-  font-size: 30px;
-  line-height: 1.5;
+  padding-left: 100px;
+  font-size: 25px;
+  line-height: 2;
   color: #ffffff;
+  border-left: 3px solid rgb(232, 64, 247);
 }
 
 .row {
   display: flex;
   justify-content: center;
+  border-left: 3px solid rgb(232, 64, 247);
 }
 
 .project-description {
+  padding-left: 50px;
   margin: 50px;
+  font-size: 20px;
+  color: #ffffff;
+  border-left: 3px solid #ffffff;
 }
 
 .project-image {
-  max-width: 800px;
+  padding: 16px;
+  max-width: 600px;
   margin: 50px;
+  border-radius: 50%;
+  box-shadow: 5px -5px 0 -2px rgb(232, 64, 247),
+    -5px 5px 0 -2px rgb(232, 64, 247);
 }
 
 footer .contact-links {
