@@ -47,6 +47,11 @@ nav img {
   max-height: 90px;
 }
 
+.wave {
+  width: 100%;
+  position: relative;
+}
+
 .headshot {
   padding: 30px;
   max-width: 250px;
@@ -55,7 +60,8 @@ nav img {
 }
 
 .main-card {
-  padding: 150px;
+  position: relative;
+  top: -100px;
   display: flex;
   justify-content: center;
 }
